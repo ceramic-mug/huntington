@@ -50,6 +50,7 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+test/
 
 # Translations
 *.mo
@@ -192,3 +193,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# where data will pile up
+boundaries
+layers
+huntington.qgz
